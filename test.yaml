@@ -1,0 +1,10 @@
+appId: com.example.screenshot
+---
+- launchApp
+- tapOn: "Enter number of days"
+- inputText: "30"
+- tapOn:
+    text: "Add Days"
+- assertVisible:
+    text: "Resulting Date: 2025-01-23"
+- stopApp
